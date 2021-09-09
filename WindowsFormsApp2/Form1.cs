@@ -24,6 +24,7 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             var UserInS = Classses.Class1.wsr_.user;
+            //skdjfglhsdfkljg
 
 
         }
