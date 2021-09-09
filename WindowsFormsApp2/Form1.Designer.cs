@@ -48,6 +48,7 @@ namespace WindowsFormsApp2
             // 
             this.TbPswd.Location = new System.Drawing.Point(93, 142);
             this.TbPswd.Name = "TbPswd";
+            this.TbPswd.PasswordChar = '*';
             this.TbPswd.Size = new System.Drawing.Size(100, 20);
             this.TbPswd.TabIndex = 1;
             // 

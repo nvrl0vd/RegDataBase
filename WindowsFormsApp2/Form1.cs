@@ -23,8 +23,15 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var UserInS = Classses.Class1.wsr_.user;
-            //skdjfglhsdfkljg
+            var UserInS = Classses.Class1.wsr_.user.FirstOrDefault(valera => valera.Login == TbLg.Text && valera.Password == TbPswd.Text);
+            if (UserInS != null) {
+                MessageBox.Show("Пользователь найден!");
+
+            }
+            else {
+                MessageBox.Show("Пользователь не найден!");
+            }
+            
 
 
         }
